@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 Stream Viewer</title>
+  <script defer src="viewer.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-4 bg-gray-100">
+  <h1 class="text-xl font-bold mb-4">ESP32 Live Stream</h1>
+  <div class="border p-4 bg-white rounded shadow max-w-fit">
+    <img id="live-img" class="w-[640px] border" alt="Stream" />
+    <p id="status" class="text-sm text-gray-500 mt-2">Waiting for stream...</p>
+  </div>
+</body>
+</html>
